@@ -1,6 +1,6 @@
 //
 //   date  : 2016-05-13
-//   author: xjdrew
+//   author: feng92f
 //
 
 package k1
@@ -11,7 +11,7 @@ import (
 	"net"
 	"strings"
 
-	"github.com/xjdrew/proxy"
+	"github.com/feng92f/proxy"
 )
 
 var errNoProxy = errors.New("no proxy")

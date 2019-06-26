@@ -2,7 +2,7 @@
 
 
 ## 分工
-  * [gotunnel]( https://github.com/xjdrew/gotunnel )负责打通内外，创建一个可用的proxy通道，当然，创建通道需要配合squid/ATS等传统proxy软件
+  * [gotunnel]( https://github.com/feng92f/gotunnel )负责打通内外，创建一个可用的proxy通道，当然，创建通道需要配合squid/ATS等传统proxy软件
   * kone负责做路由转发，实现透明xx
 
 ## 流程
@@ -11,7 +11,7 @@
   * 然后在国内的XX云也申请一个VPS，我们称为梯子的起点
   * 选择梯子的起点和落点，需要保证起点和落点之间的ping值质量要高，举个栗子，起点选择XX云的杭州节点，落点选择同一家公司的新加坡节点，因为是同一家公司的VPS，所以它们不同节点之间的网络质量还是有保证的
   * 有人会问，梯子起点能选择自己公司或者家里的网络出口吗？可以当然是可以，但到梯子落点的网络质量难以保证，而且容易被监控，选择服务商的VPS做起点，一来可以撇清关系，二来可以随时更换VPS，是不是更好？
-  * 在梯子落点安装squid/ATS，在梯子起点与落点之间使用gotunnel搭建一条通道，通道最终指向squid/ATS，具体方法可参考[gotunnel](https://github.com/xjdrew/gotunnel)上的说明
+  * 在梯子落点安装squid/ATS，在梯子起点与落点之间使用gotunnel搭建一条通道，通道最终指向squid/ATS，具体方法可参考[gotunnel](https://github.com/feng92f/gotunnel)上的说明
   * 如果要更加安全，可以从公司或者家里的出口，也使用gotunnel做一条通道到梯子的起点
 ```
     [home/office] ---gotunnel---> [梯子起点] ---gotunnel--->  [梯子落点] ----> squid/ATS

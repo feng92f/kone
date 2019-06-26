@@ -1,6 +1,6 @@
 //
 //   date  : 2016-05-13
-//   author: xjdrew
+//   author: feng92f
 //
 
 package k1
@@ -10,8 +10,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/xjdrew/kone/geoip"
-	"github.com/xjdrew/kone/tcpip"
+	"github.com/feng92f/kone/geoip"
+	"github.com/feng92f/kone/tcpip"
 )
 
 const (

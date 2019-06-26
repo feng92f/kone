@@ -26,7 +26,7 @@ go version go1.6.3 linux/armv6l
 
 * 编译kone
 
-kone是一个普通的go程序，简单说就是```go get -t github.com/xjdrew/kone```
+kone是一个普通的go程序，简单说就是```go get -t github.com/feng92f/kone```
 
 ## 配置树莓派
 
@@ -40,7 +40,7 @@ echo 1 > /proc/sys/net/ipv4/ip_forward
 
 * 修改kone的配置文件
 
-在代码目录```[misc/example/example.ini](https://github.com/xjdrew/kone/blob/master/misc/example/example.ini)```，提供了一份默认配置文件。
+在代码目录```[misc/example/example.ini](https://github.com/feng92f/kone/blob/master/misc/example/example.ini)```，提供了一份默认配置文件。
 为了简化问题，只需要把默认配置文件拷贝到合适的目录，命名为```my.ini```，然后把```[proxy "A"]```配置项下的url改成你拥有的代理，目前支持http, socks5代理。
 
 ```

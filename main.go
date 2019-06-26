@@ -1,6 +1,6 @@
 //
 //   date  : 2016-02-18
-//   author: xjdrew
+//   author: feng92f
 //
 
 package main
@@ -10,8 +10,8 @@ import (
 	"fmt"
 	"os"
 
-	. "github.com/xjdrew/kone/internal"
-	"github.com/xjdrew/kone/k1"
+	. "github.com/feng92f/kone/internal"
+	"github.com/feng92f/kone/k1"
 )
 
 var VERSION = "0.2-dev"

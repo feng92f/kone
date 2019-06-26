@@ -1,6 +1,6 @@
 //
 //   date  : 2016-05-16
-//   author: xjdrew
+//   author: feng92f
 //
 
 package k1
@@ -12,7 +12,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/xjdrew/kone/tcpip"
+	"github.com/feng92f/kone/tcpip"
 )
 
 type UDPTunnel struct {
