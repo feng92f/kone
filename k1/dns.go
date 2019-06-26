@@ -17,7 +17,7 @@ import (
 
 const (
 	dnsDefaultPort         = 53
-	dnsDefaultTtl          = 600
+	dnsDefaultTtl          = 10
 	dnsDefaultPacketSize   = 4096
 	dnsDefaultReadTimeout  = 5
 	dnsDefaultWriteTimeout = 5
